@@ -33,6 +33,6 @@ function makeInt(string) {
 }
 
 function preserveDecimal(string) {
-  parseFloat(string,10)
+  parseFloat(string)
   return string
 }
